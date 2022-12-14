@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 300px;
+    display: flex;
+    
+    
+}
+
+
+#lp {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+    flex-direction: column;
+    flex: 1;
+    
+  
+}
+
+.lpp {
+    margin-top: 90px;
+    flex-shrink: inherit;
+    flex: 1;
+   color: white;
+   font-size: 30px;
+    
+    
+}
+.lpp  li {
+    margin-left: 70px;
+}
+

@@ -1,0 +1,59 @@
+.whito {
+    display: flex;
+
+height: 600px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .whito {
+        margin-top: 1px;
+      flex-direction: row;
+      height: 400px;
+      align-items: center;
+    }
+  }
+
+.whitoo {
+    margin-top: 300px;
+    margin-left: 80px;
+   height: 50%;
+    flex: 1;
+}
+@media only screen and (max-width: 400px) {
+  .whitoo {
+      margin-top: 300px;
+    flex-direction: row;
+    height: 400px;
+    align-items: center;
+    margin-left: 30px;
+    flex-direction: column;
+  }
+}
+
+
+.sa {
+  position: relative;
+    flex: 1;
+}
+
+
+#png {
+    
+   height: 500px;
+    padding: 20px;
+    opacity: 0.8;
+    
+}
+
+@media only screen and (max-width: 400px) {
+    #png {
+        flex: 1;
+        margin-left: -40px;
+        width: 250px;
+        height: 200px;
+     
+    }
+  }
+
